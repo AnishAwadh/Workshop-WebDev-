@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title> University Website Design - Easy Tutorials </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="eduford_img/logo.png" </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> Our Courses </h1>
+        </section>
+
+        <!------------ Courses ------------>
+
+        <section class="course">
+            <h1> Courses We Offer </h1>
+        
+
+            <div class="row">
+                <div class="course-col">
+                    <h3> Intermediate </h3>
+                    <p> For a fresher , anyone can join this course with some basic prior knowledge 
+                        about the field of study you are opting for . <br>* Courses (OFFLINE / ONLINE) .
+                        <br>* Test For Advancement . <br>* Letter of recommendation .</p>
+                </div>
+
+                <div class="course-col">
+                    <h3> Degree </h3>
+                    <p>If passed the Intermediate exam , one can apply for this course which
+                        can help to elevate your knowledgeas well as your career .<br>* Courses (OFFLINE / ONLINE) .
+                        <br>* Test For Advancement . <br>* Letter of recommendation . 
+                        <br>* Certification for the completion . </p>
+                </div>
+
+                <div class="course-col">
+                    <h3> Post-Graduation </h3>
+                    <p> One candidate can apply for this course only after the completion of
+                        his/her Certification of Degree stage . <br>* Courses (OFFLINE / ONLINE) .
+                        <br>* Test For Advancement . <br>* Letter of recommendation . 
+                        <br>* Certification for the completion . <br>* Paid Internship Opportunity </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!--------------- Facilities ------------->
+
+        <section class="facilities">
+            <h1> Our Facilities </h1>
+            <p> We provide you with numerous facilities which helps you on your journey to Conquer </p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="eduford_img/library.png">
+                    <h3> World Class library </h3>
+                    <p>  Our Library is loaded with books ranging in innumerable varieties 
+                        and fields of interest of any student with over 5600+ books avaliable 
+                        on shelves plus over 300 E-Books. </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="eduford_img/basketball.png">
+                    <h3> Largest Play Ground </h3>
+                    <p> Our every major campus does provide and support you with sports of 
+                        almost every spectrum which resulted eventually with the accomplishment
+                        of 15 championship trophies. </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="eduford_img/cafeteria.png">
+                    <h3> Tasty And Healthy Food </h3>
+                    <p> Ranging in over 5+ cuisines and a delicious Menu , our Cafeteria is 
+                        worth every bite. </p>
+                </div>
+            </div>
+        </section>
+
+        <!------------ Footer ------------>
+
+        <section class="footer">
+            <h4> About Us </h4>
+            <p> We seek out narratives for each project and focus less on form–making. Our projects are
+                developed from a core idea that governs the design, using simple solutions to achieve the 
+                end-product. The resultant of our cross-disciplinary work allows us to fuse art, graphics and
+                space as a part of a single canvas.</p>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <br>
+            <p> Made with<i class="fa fa-heart-o"></i>by ANISH AWADH </p>    
+        </section>
+
+       <!-------- JavaScript for toggle menu ---------->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
